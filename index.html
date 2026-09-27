@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>For Shita — Happy 20th</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <section class="screen active" id="opening" aria-label="Opening">
+      <div class="doodle doodle-star star-1">✦</div>
+      <div class="doodle doodle-star star-2">✧</div>
+      <div class="doodle doodle-star star-3">✦</div>
+
+      <div class="screen-inner opening-inner">
+        <p class="eyebrow reveal r1">hey, shita.</p>
+        <p class="line reveal r2">ciee, lagi ulang tahun yaa?</p>
+        <h1 class="birthday-title reveal r3">selamat ulang tahun ke-20 yaa!</h1>
+        <p class="line reveal r4">aku ada sesuatu nih buat kamu.</p>
+
+        <button class="primary-btn reveal r5" id="openBtn">buka <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="gifts" aria-label="Gift selection">
+      <div class="screen-inner gift-inner">
+        <div class="section-copy">
+          <p class="eyebrow">oh iya...</p>
+          <h2>aku ada hadiah buat kamu.</h2>
+          <p>sebenernya ada dua.<br>pilih yang no 1 dulu ya!</p>
+        </div>
+
+        <div class="gift-grid">
+          <button class="gift-card" data-gift="1" aria-label="Buka Gift 01">
+            <span class="gift-box">
+              <span class="lid"></span>
+              <span class="ribbon-v"></span>
+              <span class="ribbon-h"></span>
+              <span class="box-body"></span>
+            </span>
+            <span class="gift-label">GIFT 01</span>
+          </button>
+
+          <button class="gift-card" data-gift="2" aria-label="Buka Gift 02">
+            <span class="gift-box">
+              <span class="lid"></span>
+              <span class="ribbon-v"></span>
+              <span class="ribbon-h"></span>
+              <span class="box-body"></span>
+            </span>
+            <span class="gift-label">GIFT 02</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="ticket1" aria-label="First ticket">
+      <div class="screen-inner ticket-inner">
+        <p class="eyebrow">GIFT 01</p>
+        <div class="ticket-wrap reveal-ticket">
+          <div class="ticket">
+            <div class="ticket-top">
+              <span>CONCERT</span>
+              <span>01</span>
+            </div>
+            <div class="ticket-main">
+              <small>31 OCTOBER 2026</small>
+              <strong>SHITA</strong>
+              <span>1 × TICKET</span>
+            </div>
+            <div class="ticket-bottom">
+              <span>FOR YOU</span>
+              <span>✦ ✦ ✦</span>
+            </div>
+          </div>
+        </div>
+        <p class="under-ticket">yang ini buat kamu.</p>
+        <button class="secondary-btn" id="toGift2">lihat hadiah satunya →</button>
+      </div>
+    </section>
+
+    <section class="screen" id="ticket2" aria-label="Second ticket">
+      <div class="screen-inner ticket-inner">
+        <p class="eyebrow">GIFT 02</p>
+        <div class="ticket-wrap reveal-ticket">
+          <div class="ticket">
+            <div class="ticket-top">
+              <span>CONCERT</span>
+              <span>02</span>
+            </div>
+            <div class="ticket-main">
+              <small>31 OCTOBER 2026</small>
+              <strong>YUMNA</strong>
+              <span>1 × TICKET</span>
+            </div>
+            <div class="ticket-bottom">
+              <span>FOR ME</span>
+              <span>✦ ✦ ✦</span>
+            </div>
+          </div>
+        </div>
+        <p class="under-ticket">yang ini buat aku.</p>
+        <button class="secondary-btn" id="toTogether">lanjut</button>
+      </div>
+    </section>
+
+    <section class="screen" id="together" aria-label="Together">
+      <div class="screen-inner together-inner">
+        <p class="eyebrow">hmm...</p>
+
+        <div class="two-tickets">
+          <div class="mini-ticket"><span>SHITA</span><b>31 OCT</b></div>
+          <div class="mini-ticket"><span>YUMNA</span><b>31 OCT</b></div>
+        </div>
+
+        <p class="soft-line">jadi...</p>
+        <h2 class="together-title">mau nonton bareng?</h2>
+
+        <button class="primary-btn" id="toWish">lanjut <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen wish-screen" id="wish" aria-label="Birthday wish">
+      <div class="screen-inner wish-inner">
+        <div class="paper">
+          <div class="paper-top">
+            <span>for your 20th</span>
+            <span>✦</span>
+          </div>
+
+          <article>
+            <h2>Selamat ulang tahun ke-20, Shita! 🎂</h2>
+
+            <p>Akhirnya kepala dua juga yaa. Ciee, udah tua sekarang wkwk.</p>
+
+            <p>Semoga di umur kepala dua ini kamu dikelilingin sama hal-hal yang bikin kamu bahagia. Semoga apa pun yang kamu perjuangin bisa terwujud, dan semoga selalu dibukakan jalan buat apa pun yang kamu hadapin.</p>
+
+            <p>Semoga kamu dan keluarga selalu diberikan kesehatan, umur yang panjang, dan diberikan kemudahan dalam semua urusannya ya.</p>
+
+            <p class="emphasis">Dan yang paling penting, semoga kamu bahagia.</p>
+
+            <p>Setiap hari, setiap waktu, nggak cuma pas ulang tahun aja.</p>
+
+            <p>Pokoknya, semoga tahun ini jadi tahun yang baik buat kamu.</p>
+          </article>
+        </div>
+
+        <button class="secondary-btn" id="toClosing">udah selesai baca →</button>
+      </div>
+    </section>
+
+    <section class="screen" id="closing" aria-label="Closing">
+      <div class="doodle doodle-star star-3">✦</div>
+      <div class="doodle doodle-star star-2">✦</div>
+
+      <div class="screen-inner closing-inner">
+        <p class="eyebrow">okay, that's it.</p>
+        <h2>udah deh, segitu dulu.</h2>
+        <p>semoga kamu suka hadiahnya yaa. tiketnya nyusul di chat yaa.</p>
+        <p class="date-line">sampai ketemu tanggal 31 nanti 👀</p>
+
+        <div class="final-message">
+          <span>happy birthday sekali lagi,</span>
+          <strong>Shita! 🎂</strong>
+        </div>
+
+        <button class="secondary-btn" id="restart">↻ ulang dari awal</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop preload="auto">
+    <!-- Masukkan file musik kamu ke assets/music.mp3 -->
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
